@@ -1,0 +1,37 @@
+create_signals: We use it to create the set of vectors in R^d to be used for D.L. (it creates the x^2 functions too) 
+
+gaussian: We use this FUNCTION to create a set of gaussian vectors in R^d to be used for D.L. 
+
+file_1: We show how two vectors in R^d can have the same qualitative characteristics up to a constant. 
+That means that a basis vector in [-1,1] can be used in [-2,2] without changing it, but with keeping the same number of sampling points. 
+
+file_2: We do D.L. for "similar" functions in [-1,1] and [-2,2] and show that the dictionary atoms for very small k are the same (?). 
+This shows that we can use the same dictionary for any interval as long as d is the same for the learned dictionary and the signal we want to represent.
+
+file_3: We show how two "similar" functions with different supports have the same DFT.  
+
+file_4: We create the dictionary for a 2D function using kronecker product (see Separable Sensing Operator paper). 
+
+file_5: This is how we delete rows from a vector or a matrix. 
+
+file_6: In this file we load the dictionary we found and plot the avg reconstruction 
+error for a specific m (here for m=d and for some m<d) and all the signals. 
+
+file_7: In this file we load the dictionary we found and plot the avg reconstruction 
+error for several m's for a specific signal. 
+
+file_8: We do D.L. for various N's and we see what is the effect of N to the error over various m's. 
+
+file_9: We test the reconstruction capabilities of the 2D dictionary constructed by kronecker product (for joint PDF of correlated and uncorrelated Random variables).
+
+file_10: Just D.L. and plot of the atoms.
+
+file_11: We compare the reconstruction capabilities of 2 dictionaries. Here we compare the "sparse" and the "dense" dictionary (so same k, different n). 
+
+file_12: We compare the reconstruction capabilities of 2 dictionaries. Here we compare 2 dictionaries with different d's. 
+
+
+
+
+
+
